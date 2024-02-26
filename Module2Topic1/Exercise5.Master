@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Exercise5.Master.cs" Inherits="Module2Topic1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav runat="server">
+            <ul>
+                <li><a href="Exercise1.aspx">Exercise 1</a></li>
+                <li><a href="Exercise2.aspx">Exercise 2</a></li>
+                <li><a href="Exercise3.aspx">Exercise 3</a></li>
+                <li><a href="Exercise4.aspx">Exercise 4</a></li>
+                </ul>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            <hr />
+            <div>
+                <h2> How would you compare plain HTML to ASP.NET WebForms </h2>
+                <p>Plain HTML's structure of code is simple and easier to understand compared to ASP.NET Web Forms. 
+                    Although ASP.NET Web Forms also include the structure of HTML, it was quite confusing at first 
+                    especially when encountering the asp tag. Also, incorporating the C# programming language was also 
+                    one of the reasons why it became complicated at first since I have only encountered CSS and JavaScript 
+                    for plain HTML. </p>
+            </div>
+            <hr />
+            <div>
+                <h2> Implementing logic in the code behind VS. Implementing logic in JavaScript </h2>
+                <p>Implementing logic in code behind is useful when it comes to validating data or input of the user to 
+                    ensure data consistency and integrity. An example of this is validating the grade of a student, to 
+                    find the equivalent grade, and displaying it through a label. On the other hand, implementing logic 
+                    in JavaScript can occur through adding animation or interactive features for the overall UI. For example, 
+                    changing pictures when a button is clicked.</p>
+            </div>
+            <hr />
+            <div>
+                <h2> Explain what post backs are. </h2>
+                <p>Postback is the act of forwarding information obtained from a web page returned to the server side of the 
+                    page in order to be processed. It occurs when a user submits information or initiates an action, like 
+                    clicking a button, on a web form.</p>
+            </div>
+            <hr />
+        </asp:ContentPlaceHolder>
+
+        <footer runat="server">
+            <p>Copyright &copy; Phaula Briol 2024</p>
+        </footer>
+    </form>
+</body>
+</html>

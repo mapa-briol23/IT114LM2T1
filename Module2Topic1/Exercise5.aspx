@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" CodeBehind="~/Exercise5.aspx.cs" Inherits="Module1Exercise1.Exercise4" %>
+﻿<%@ Page Language="C#" CodeBehind="~/Exercise5.aspx.cs" MasterPageFile="~/Exercise5.Master" Inherits="Module1Exercise1.Exercise4" %>
 
 <%-- Exercise 5: Creating reusable layouts using master pages--%>
 <%-- TODO 5.1 Create a master page that contains a navigation bar, a main content, and a footer. --%>
